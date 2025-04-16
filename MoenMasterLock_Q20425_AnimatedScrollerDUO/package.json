@@ -1,0 +1,15 @@
+{
+  "name": "padsquad",
+  "version": "3.1.0",
+  "version": "3.1.0",
+  "description": "",
+  "main": "gwd-events-support.1.0.js",
+  "scripts": {
+    "http-server" : "http-server --cors=Authorization",
+    "padsquad-campaign": "echo \"Padsquad Scroller\nCampaign Name:PADSQUAD LOCAL SERVER REDIRECTION\nCampaign ID:12608\nCampaign URL:https://studio.simpli.padsquad.com/tag-manager/placements/campaign/12608\nCreative CDN:https://cdn.padsquad.com/creativeAssets/QWQcimVym0_bKMNPWMM7q_DUO_SimpliTag_3.1\nPlacement Preview:https://t.ly/__m3Z\nCreative Preview:https://studio.simpli.padsquad.com/creative-preview/IwTT0Np3Ao\"",
+    "dev": "npm install --global http-server && npm run padsquad-campaign && npm run http-server"
+  },
+  "author": "Moises Martinez Liranzo",
+  "license": "ISC"
+}
+
